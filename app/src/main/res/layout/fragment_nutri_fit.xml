@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/work"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Workout Schedule"
+        android:padding="16dp"
+        android:background="@color/black"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="30dp" /> <!-- Add margin at the bottom of the first TextView -->
+
+    <TextView
+        android:id="@+id/diet"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Diet Schedule"
+        android:background="@color/black"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp" />
+</LinearLayout>

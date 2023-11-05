@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".HomeFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TableRow>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fit_tionary_card"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onCardViewClick">
+                    <include layout="@layout/fdictionary_layout" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+
+            <TableRow>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nutri_fit_card"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onCardViewClick">
+                    <include layout="@layout/nutri_fit_layout" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+
+            <TableRow>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fit_track_card"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onCardViewClick">
+                    <include layout="@layout/fit_track_card"/>
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+
+            <TableRow>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onCardViewClick">
+                    <include layout="@layout/fit_stream_card"/>
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+
+            <TableRow>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="onCardViewClick">
+                    <include layout="@layout/fit_share_card" />
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

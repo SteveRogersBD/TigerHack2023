@@ -8,8 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="Image Description"
-        android:scaleType="fitCenter"
-        android:src="@drawable/fit_dictionary" />
+        android:scaleType="fitXY"
+        android:src="@drawable/b" />
 
     <TextView
         android:layout_width="match_parent"

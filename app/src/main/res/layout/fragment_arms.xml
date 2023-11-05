@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Concentration Curl"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/bicepsWorkout1"
+        android:background="@android:color/transparent"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Barbell Curl"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/bicepsWorkout2"
+        android:background="@android:color/transparent"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Overhead Curl"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/bicepsWorkout3"
+        android:background="@android:color/transparent"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Preacher Curl"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/bicepsWorkout4"
+        android:background="@android:color/transparent"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Hammer Curl"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/bicepsWorkout5"
+        android:background="@android:color/transparent"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Decline Curl"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/bicepsWorkout6"
+        android:background="@android:color/transparent"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+</LinearLayout>

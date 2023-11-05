@@ -2,4 +2,12 @@
     <string name="app_name">Final</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="curl_desc">
+        To perform a concentration curl, sit on a bench with your feet flat and hold a dumbbell in one
+        hand, placing your arms back against your inner thigh. Fully extend your arm, allowing the
+        dumbbell to hang down, then curl it towards your shoulder while keeping your upper arm
+        stationary. Squeeze your bicep at the top of the movement, lower the weight with control,
+        and complete the desired reps. Afterward, switch to the other arm. Maintaining proper form
+        and focusing on the contraction is crucial for an effective bicep workout.
+    </string>
 </resources>

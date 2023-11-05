@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Arms Workout"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/arms_workout"
+        android:gravity="center"
+        android:drawableLeft="@drawable/biceps" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Abs Workout"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Back Wokout"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:drawableLeft="@drawable/oni_back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Chest Workout"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/textView4"
+        android:gravity="center"
+        android:drawableLeft="@drawable/oni1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Shoulder Workout"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/textView5"
+        android:gravity="center"
+        android:drawableLeft="@drawable/onishouder" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Leg Workout"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/textView6"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_launcher_background" />
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.aniruddha.afinal.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_workoutFragment"
+            app:destination="@id/workoutFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_plannerFragment"
+            app:destination="@id/plannerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_nutriFitFragment"
+            app:destination="@id/nutriFitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/workoutFragment"
+        android:name="com.aniruddha.afinal.WorkoutFragment"
+        android:label="fragment_workout"
+        tools:layout="@layout/fragment_workout" >
+        <action
+            android:id="@+id/action_workoutFragment_to_armsFragment"
+            app:destination="@id/armsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/armsFragment"
+        android:name="com.aniruddha.afinal.ArmsFragment"
+        android:label="fragment_arms"
+        tools:layout="@layout/fragment_arms" >
+        <action
+            android:id="@+id/action_armsFragment_to_curlFragment"
+            app:destination="@id/curlFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/curlFragment"
+        android:name="com.aniruddha.afinal.CurlFragment"
+        android:label="fragment_curl"
+        tools:layout="@layout/fragment_curl" />
+    <fragment
+        android:id="@+id/plannerFragment"
+        android:name="com.aniruddha.afinal.PlannerFragment"
+        android:label="fragment_planner"
+        tools:layout="@layout/fragment_planner" />
+    <fragment
+        android:id="@+id/nutriFitFragment"
+        android:name="com.aniruddha.afinal.NutriFitFragment"
+        android:label="fragment_nutri_fit"
+        tools:layout="@layout/fragment_nutri_fit" >
+        <action
+            android:id="@+id/action_nutriFitFragment_to_workScheduleFragment"
+            app:destination="@id/workScheduleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/workScheduleFragment"
+        android:name="com.aniruddha.afinal.WorkScheduleFragment"
+        android:label="fragment_work_schedule"
+        tools:layout="@layout/fragment_work_schedule" />
+</navigation>
