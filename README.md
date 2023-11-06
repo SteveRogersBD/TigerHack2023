@@ -1,5 +1,5 @@
 # TigerHack2023
-Project Name: FitStream
+## Project Name: FitStream
 Overview: An app which helps users get fit by providing educated workout and dietary plans based on the user’s BMI.
 
 What it does:
@@ -12,3 +12,5 @@ It gives you five features:
 3) FitPlanner- you will find a bmi calculator and get your own diet and workout plan for free.
 4) FitShare- you can share your workout, diet plan.
 5) FitStream- you can live stream your workout. 
+
+# Hi
